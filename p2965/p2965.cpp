@@ -56,15 +56,7 @@ void work(int x,int y,int dep) {
 	else work(x+1,1,dep);
 }
 
-int func(string s) {
-	int t,len=s.length();
-	for (int i=0;i<s.length();i++)
-		t=t*10+s[i]-'0';
-	return t;
-}
-
 int main() {
-	/*
 	char ch;
 	finish=false;
 	for (int i=1;i<=4;i++) {
@@ -87,8 +79,7 @@ int main() {
 			printf("%d %d\n",ans[i][0],ans[i][1]);
 	} else {
 		printf("Impossible\n");
-	}*/
-	cout<<func("1234533")<<endl;
+	}
 	return 0;
 }
 
